@@ -18,14 +18,15 @@ class MelonType:
         self.is_bestseller = is_bestseller
 
         self.pairings = []
-
+        
         
 
     def add_pairing(self, pairing):
         """Add a food pairing to the instance's pairings list."""
         self.pairings.append(pairing)
         # self.pairings = [pairing]
-        
+
+    
 
     def update_code(self, new_code):
         """Replace the reporting code with the new_code."""
@@ -33,11 +34,23 @@ class MelonType:
         self.code = new_code
 
 
+print(melon_list)
+
+
 def make_melon_types():
     """Returns a list of current melon types."""
 
+    
     all_melon_types = []
 
+    def melon_list(self, melon_type):
+
+        self.melon_list.append(melon_type)
+
+    # for melon in instance_list:
+    #     all_melon_types.append(melon)
+
+    
     # Fill in the rest
 
     return all_melon_types
@@ -56,7 +69,7 @@ def make_melon_type_lookup(melon_types):
 
 
 ############
-# Part 2   #
+# Part 2   
 ############
 
 
